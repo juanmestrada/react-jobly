@@ -13,11 +13,11 @@ const RouteList = ({login, signup}) => {
     const { currentUser } = useContext(UserContext);
     return (
         <Routes>
-            <Route exact path="/" element={<LandingPage />} />
+            <Route path="/" element={<LandingPage />} />
             <Route path="/login" element={<LogIn login={login} />} />
             <Route path="/signup" element={<SignUp signup={signup} />} />
             <Route path="/companies" element={!currentUser ? <Navigate to="/login" replace /> : <CompanyList />} />
-            <Route exact path="/companies/:handle" element={!currentUser ? <Navigate to="/login" replace /> : <CompanyDetail />} />
+            <Route path="/companies/:handle" element={!currentUser ? <Navigate to="/login" replace /> : <CompanyDetail />} />
             <Route path="/jobs" element={!currentUser ? <Navigate to="/login" replace /> : <JobList />} />
             <Route path="/profile" element={!currentUser ? <Navigate to="/login" replace /> : <Profile />} /> 
         </Routes>
