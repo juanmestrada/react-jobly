@@ -13,13 +13,13 @@ const RouteList = ({login, signup}) => {
     const { currentUser } = useContext(UserContext);
     return (
         <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/login" element={<LogIn login={login} />} />
-            <Route path="/signup" element={<SignUp signup={signup} />} />
-            <Route path="/companies" element={!currentUser ? <Navigate to="/login" replace /> : <CompanyList />} />
-            <Route path="/companies/:handle" element={!currentUser ? <Navigate to="/login" replace /> : <CompanyDetail />} />
-            <Route path="/jobs" element={!currentUser ? <Navigate to="/login" replace /> : <JobList />} />
-            <Route path="/profile" element={!currentUser ? <Navigate to="/login" replace /> : <Profile />} /> 
+            <Route path="/react-jobly/" element={<LandingPage />} />
+            <Route path="/react-jobly/login" element={<LogIn login={login} />} />
+            <Route path="/react-jobly/signup" element={<SignUp signup={signup} />} />
+            <Route path="/react-jobly/companies" element={!currentUser ? <Navigate to="/react-jobly/login" replace /> : <CompanyList />} />
+            <Route path="/react-jobly/companies/:handle" element={!currentUser ? <Navigate to="/react-jobly/login" replace /> : <CompanyDetail />} />
+            <Route path="/react-jobly/jobs" element={!currentUser ? <Navigate to="/react-jobly/login" replace /> : <JobList />} />
+            <Route path="/react-jobly/profile" element={!currentUser ? <Navigate to="/react-jobly/login" replace /> : <Profile />} /> 
         </Routes>
     )
 }

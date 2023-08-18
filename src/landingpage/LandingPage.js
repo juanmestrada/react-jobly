@@ -13,7 +13,7 @@ const LandingPage = () => {
                 <p>Your career platform.</p>
                 {currentUser ? <h2>
                     Welcome Back, {currentUser.firstName || currentUser.username}!
-                </h2> : (<button className="LandingPage-start-btn"><NavLink to="/login">Get Started</NavLink></button>)}
+                </h2> : (<button className="LandingPage-start-btn"><NavLink to="/react-jobly/login">Get Started</NavLink></button>)}
             </Container>
         </div>
     )

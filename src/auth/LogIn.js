@@ -18,7 +18,7 @@ const LogIn = ({login}) => {
 
         let result = await login(formData);
         if (result.success) {
-          navigate("/companies");
+          navigate("/react-jobly/companies");
         } else {
           console.log(result.errors);
         }
@@ -55,7 +55,7 @@ const LogIn = ({login}) => {
 
                 <div className="form-group" align="center">
                     <div>
-                    Don't have an account? <span className="tr-pri-c"><a href="/signup">Sign up</a></span>
+                    Don't have an account? <span className="tr-pri-c"><a href="/react-jobly/signup">Sign up</a></span>
                     </div>
                 </div>
             </form>
