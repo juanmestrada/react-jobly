@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-jobly/static/css/main.464c1169.css",
-    "main.js": "/react-jobly/static/js/main.3600f209.js",
+    "main.js": "/react-jobly/static/js/main.e6fb3350.js",
     "static/js/787.0d966806.chunk.js": "/react-jobly/static/js/787.0d966806.chunk.js",
     "index.html": "/react-jobly/index.html",
     "main.464c1169.css.map": "/react-jobly/static/css/main.464c1169.css.map",
-    "main.3600f209.js.map": "/react-jobly/static/js/main.3600f209.js.map",
+    "main.e6fb3350.js.map": "/react-jobly/static/js/main.e6fb3350.js.map",
     "787.0d966806.chunk.js.map": "/react-jobly/static/js/787.0d966806.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.464c1169.css",
-    "static/js/main.3600f209.js"
+    "static/js/main.e6fb3350.js"
   ]
 }
