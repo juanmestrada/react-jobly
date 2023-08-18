@@ -85,12 +85,12 @@ function App() {
 
   return (
     <div className="App">
-      <UserContext.Provider value={{ currentUser, setCurrentUser, hasAppliedToJob, applyToJob }}>
         <BrowserRouter >
-          {currentUser && <Nav logout={logout} />}
-          <RouteList login={login} signup={signup} />
+          <UserContext.Provider value={{ currentUser, setCurrentUser, hasAppliedToJob, applyToJob }}>
+            {currentUser && <Nav logout={logout} />}
+            <RouteList login={login} signup={signup} />
+          </UserContext.Provider>
         </BrowserRouter>
-      </UserContext.Provider>
     </div>
   );
 }
