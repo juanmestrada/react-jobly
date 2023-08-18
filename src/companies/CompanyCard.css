@@ -1,0 +1,23 @@
+.CC-card{
+    color: inherit;
+    text-decoration: none;
+    margin: auto;
+}
+
+.CC-card:hover{
+    color: inherit;
+    background-color: #f2f4f5;
+}
+
+@media (max-width: 991px){
+    .CC-card{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px){
+    .CC-card{
+        width: 50%;
+        margin-bottom: 35px;
+    }
+}

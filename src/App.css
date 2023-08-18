@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+.App{
+  color: #657786;
+  /* padding-top: 60px; */
 }
 
 .App-logo {
@@ -26,6 +27,31 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.hero-color{
+  color: #41e0fd;
+}
+.form-control:focus {
+  border-color: #41e0fd;
+}
+
+.form-btn-next{
+  background-color: #087ea4 !important;
+  color: white !important;
+  border-radius: 999px;
+  opacity: .5;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: 600;
+  min-height: 36px;
+  min-width: 75px;
+  line-height: 3rem;
+  border: none;
+}
+
+.form-btn-next:hover{
+  opacity: 1;
 }
 
 @keyframes App-logo-spin {

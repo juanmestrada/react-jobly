@@ -1,0 +1,18 @@
+
+.CompanyDetail-info{
+    padding-bottom: 10px;
+    border-bottom: 0.0625rem solid #e4e2e0;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px){
+    .CompanyDetail{
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 992px){
+    .CompanyDetail{
+        margin-top: 100px;
+    }
+}
